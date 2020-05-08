@@ -1,0 +1,43 @@
+ /* ============================================= */
+ /* Descriptive Color Variables */
+ /* ============================================= */
+
+$grey:      #777;
+$viking:    #58e1c1;
+$malibu:    #51ddfc;
+$coral:     #fd7856;
+$purpleMountain:    #927bc1;
+$sunglo:    #e4757a;
+
+/* ============================================= */
+ /* Functional Color Variables */
+ /* ============================================= */
+
+$color-primary:    $viking;
+$color-secondary:  $malibu;
+$grid-button-1:    $coral;
+$grid-button-2:    $purpleMountain;
+$grid-button-3:    $sunglo;
+
+
+/* ============================================= */
+ /* Font Stacks */
+ /* ============================================= */
+
+$stack-sans-serif:    sans-serif;
+$stack-lato:          'Lato', $stack-sans-serif;
+
+
+/* ============================================= */
+ /* Font Weight */
+ /* ============================================= */
+
+$font-weight-med:    300;
+$font-weight-lg:     700;
+
+
+/* ============================================= */
+ /* Media Query Breakpoints */
+ /* ============================================= */
+
+$brk-wide:    '(min-width: 768px)';

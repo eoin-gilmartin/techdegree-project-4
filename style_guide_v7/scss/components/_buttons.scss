@@ -10,18 +10,25 @@
   padding: 10px 0;
   text-transform: uppercase;
   border-radius: 5px;
+    
+    @media #{$brk-wide} {
+        padding: 10px 30px;
+        .btn + .btn {
+          margin-left: 10px;
+    }
+    }         
 }
 
 .default {
-  background-color: #51ddfc;
+  background-color: $color-secondary;
 }
 
 .error {
-  background-color: #e4757a;
+  background-color: $grid-button-3;
 }
 
 .info {
-  background-color: #927bc1;
+  background-color: $grid-button-2;
 }
 
 .success {
@@ -29,5 +36,5 @@
 }
 
 .warning {
-  background-color: #fd7856;
+  background-color: $grid-button-1;
 }
