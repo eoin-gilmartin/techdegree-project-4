@@ -823,6 +823,20 @@ a {
   flex-basis: 100%;
 }
 
+@media (min-width: 768px) {
+  /* line 141, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
+  #col-4 {
+    flex-basis: 50%;
+  }
+}
+
+@media (min-width: 768px) {
+  /* line 147, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
+  #col-8 {
+    flex-basis: 100%;
+  }
+}
+
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */

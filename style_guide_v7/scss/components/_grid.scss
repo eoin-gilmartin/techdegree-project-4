@@ -137,3 +137,17 @@
 .card {
   flex-basis: 100%;
 }
+
+#col-4 {
+    @media #{$brk-wide} {
+        flex-basis: 50%;
+    }  
+}
+
+#col-8 {
+    @media #{$brk-wide} {
+       flex-basis: 100%;
+    }  
+}
+
+
