@@ -465,37 +465,37 @@ a {
 }
 
 @media (min-width: 768px) {
-  /* line 5, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_buttons.scss */
-  .btn {
-    padding: 10px 30px;
-  }
-  /* line 16, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_buttons.scss */
-  .btn .btn + .btn {
+  padding: 10px 30px;
+}
+
+@media (min-width: 768px) {
+  /* line 21, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_buttons.scss */
+  .btn + .btn {
     margin-left: 10px;
   }
 }
 
-/* line 22, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_buttons.scss */
+/* line 26, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_buttons.scss */
 .default {
   background-color: #51ddfc;
 }
 
-/* line 26, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_buttons.scss */
+/* line 30, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_buttons.scss */
 .error {
   background-color: #e4757a;
 }
 
-/* line 30, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_buttons.scss */
+/* line 34, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_buttons.scss */
 .info {
   background-color: #927bc1;
 }
 
-/* line 34, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_buttons.scss */
+/* line 38, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_buttons.scss */
 .success {
   background-color: #63cc82;
 }
 
-/* line 38, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_buttons.scss */
+/* line 42, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_buttons.scss */
 .warning {
   background-color: #fd7856;
 }
@@ -661,12 +661,12 @@ a {
 }
 
 @media (min-width: 768px) {
-  /* line 39, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
-  [class^=col] [class^=col] + [class^=col] {
+  /* line 41, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
+  [class^=col] + [class^=col] {
     margin-left: 10px;
   }
-  /* line 41, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
-  [class^=col] [class^=col] + [class^=col] [class^=col] {
+  /* line 45, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
+  [class^=col] {
     display: flex;
     justify-content: center;
     margin-top: 0;
@@ -674,151 +674,151 @@ a {
   }
 }
 
-/* line 51, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
+/* line 53, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
 .theme.col-1 {
   background-color: #927bc1;
 }
 
 @media (min-width: 768px) {
-  /* line 51, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
+  /* line 53, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
   .theme.col-1 {
     flex-basis: 8.33%;
   }
 }
 
-/* line 58, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
+/* line 60, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
 .theme.col-2 {
   background-color: #fd7856;
 }
 
 @media (min-width: 768px) {
-  /* line 58, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
+  /* line 60, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
   .theme.col-2 {
     flex-basis: 16.67%;
   }
 }
 
-/* line 65, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
+/* line 67, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
 .theme.col-3 {
   background-color: #deb2ee;
 }
 
 @media (min-width: 768px) {
-  /* line 65, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
+  /* line 67, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
   .theme.col-3 {
     flex-basis: 25.00%;
   }
 }
 
-/* line 72, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
+/* line 74, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
 .theme.col-4 {
   background-color: #7ee6fd;
 }
 
 @media (min-width: 768px) {
-  /* line 72, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
+  /* line 74, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
   .theme.col-4 {
     flex-basis: 33.33%;
   }
 }
 
-/* line 79, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
+/* line 81, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
 .theme.col-5 {
   background-color: #88d9a0;
 }
 
 @media (min-width: 768px) {
-  /* line 79, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
+  /* line 81, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
   .theme.col-5 {
     flex-basis: 41.67%;
   }
 }
 
-/* line 86, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
+/* line 88, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
 .theme.col-6 {
   background-color: #4da2bb;
 }
 
 @media (min-width: 768px) {
-  /* line 86, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
+  /* line 88, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
   .theme.col-6 {
     flex-basis: 50.00%;
   }
 }
 
-/* line 93, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
+/* line 95, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
 .theme.col-7 {
   background-color: #ec9fa3;
 }
 
 @media (min-width: 768px) {
-  /* line 93, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
+  /* line 95, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
   .theme.col-7 {
     flex-basis: 58.33%;
   }
 }
 
-/* line 100, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
+/* line 102, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
 .theme.col-8 {
   background-color: #fd9f85;
 }
 
 @media (min-width: 768px) {
-  /* line 100, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
+  /* line 102, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
   .theme.col-8 {
     flex-basis: 66.67%;
   }
 }
 
-/* line 107, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
+/* line 109, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
 .theme.col-9 {
   background-color: #e4757a;
 }
 
 @media (min-width: 768px) {
-  /* line 107, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
+  /* line 109, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
   .theme.col-9 {
     flex-basis: 75.00%;
   }
 }
 
-/* line 114, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
+/* line 116, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
 .theme.col-10 {
   background-color: #63cc82;
 }
 
 @media (min-width: 768px) {
-  /* line 114, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
+  /* line 116, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
   .theme.col-10 {
     flex-basis: 83.33%;
   }
 }
 
-/* line 121, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
+/* line 123, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
 .theme.col-11 {
   background-color: #51ddfc;
 }
 
 @media (min-width: 768px) {
-  /* line 121, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
+  /* line 123, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
   .theme.col-11 {
     flex-basis: 91.67%;
   }
 }
 
-/* line 128, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
+/* line 130, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
 .theme.col-12 {
   background-color: #80e8d1;
 }
 
 @media (min-width: 768px) {
-  /* line 128, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
+  /* line 130, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
   .theme.col-12 {
     flex-basis: 100%;
   }
 }
 
-/* line 135, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
+/* line 137, ../../../../../Users/eoingilmartin/Desktop/Web Dev/treehouse/techdegree-project-4/style_guide_v7/scss/components/_grid.scss */
 .card {
   flex-basis: 100%;
 }

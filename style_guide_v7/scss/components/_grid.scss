@@ -35,18 +35,20 @@
   min-height: 25px;
   padding: 10px;
   border-radius: 5px;
-    @media #{$brk-wide} {
+}
+
+ @media #{$brk-wide} {
         [class^=col] + [class^=col] {
         margin-left: 10px;
-        [class^=col] {
+    }
+     
+     [class^=col] {
           display: flex;
           justify-content: center;
           margin-top: 0;
           align-items: center;
         }
     }
-    }
-}
 
 .theme.col-1 {
   background-color: $grid-button-2;

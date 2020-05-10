@@ -11,12 +11,16 @@
   text-transform: uppercase;
   border-radius: 5px;
     
-    @media #{$brk-wide} {
+          
+}
+
+@media #{$brk-wide} {
         padding: 10px 30px;
-        .btn + .btn {
-          margin-left: 10px;
+    }   
+@media #{$brk-wide} {
+    .btn + .btn {
+         margin-left: 10px;
     }
-    }         
 }
 
 .default {
